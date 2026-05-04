@@ -39,6 +39,11 @@ const gems = [
     title: "Project Plagiarism",
     description: "Analyze project documents for similarity and ensure original content for submissions.",
   },
+  {
+    icon: Search,
+    title: "Academic Calendar",
+    description: "Analyze project documents for similarity and ensure original content for submissions.",
+  },
 ];
 
 export default function App() {
