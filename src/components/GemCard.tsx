@@ -36,7 +36,7 @@ const GemCard: FC<GemCardProps> = ({ icon: Icon, title, description, index }) =>
           <Button 
             className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-6 rounded-full transition-all duration-300 group-hover:shadow-[0_10px_15px_-3px_rgba(79,70,229,0.2)] flex items-center justify-center gap-2"
           >
-            Open Gem
+            Open Agent
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </CardContent>

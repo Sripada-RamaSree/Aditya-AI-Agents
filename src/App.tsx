@@ -16,22 +16,22 @@ const gems = [
   },
   {
     icon: Layout,
-    title: "Lesson Plan Gem",
+    title: "Lesson Plan Agent",
     description: "Generate structured weekly lesson plans based on your subject, syllabus, and timeframe.",
   },
   {
     icon: GraduationCap,
-    title: "Academics Gem",
+    title: "Academics Agent",
     description: "Generate comprehensive notes, question banks, and tailored exam preparation strategies.",
   },
   {
     icon: ClipboardList,
-    title: "Placements Gem",
+    title: "Placements Agent",
     description: "Build your resume, practice interview questions, and prepare for aptitude tests.",
   },
   {
     icon: LineChart,
-    title: "Reports Gem",
+    title: "Reports Agent",
     description: "Analyze student performance, attendance data, and generate downloadable summaries.",
   },
   {
@@ -58,7 +58,7 @@ export default function App() {
             transition={{ duration: 0.5 }}
             className="inline-block px-4 py-1.5 bg-indigo-50 text-indigo-600 rounded-lg text-xs font-bold uppercase tracking-widest mb-6"
           >
-            Academic ecosystem v3.0
+            Aditya University, Surampalem Academic Ecosystem 
           </motion.div>
           
           <motion.h1 
@@ -67,7 +67,7 @@ export default function App() {
             transition={{ duration: 0.6 }}
             className="text-5xl md:text-6xl lg:text-7xl font-extrabold font-heading text-slate-900 mb-8 tracking-[-0.04em] leading-[0.95]"
           >
-            Orchestrate your <br className="hidden md:block" /> academic velocity.
+            Improve the <br className="hidden md:block" /> academic efficiency.
           </motion.h1>
           
           <motion.p 
@@ -76,7 +76,7 @@ export default function App() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed font-medium"
           >
-            The all-in-one intelligence workspace designed for the Aditya University ecosystem. Transform raw academic data into actionable success.
+            The all-in-one intelligent workspace designed for the Aditya University faculty to improve the work efficiency. 
           </motion.p>
 
           <motion.div 
@@ -86,7 +86,7 @@ export default function App() {
             className="flex flex-wrap gap-4 mt-10"
           >
             <button className="bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-bold shadow-[0_10px_15px_-3px_rgba(79,70,229,0.3)] hover:bg-indigo-700 transition-all hover:scale-105">
-              Explore Gems Now
+              Explore Agents Now
             </button>
             <button className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-full text-lg font-bold shadow-sm hover:bg-slate-50 transition-all">
               Watch Guide
@@ -111,7 +111,7 @@ export default function App() {
       <footer className="mt-20 py-12 px-6 lg:px-[60px] border-t border-slate-200 bg-white">
         <div className="max-w-[1400px] mx-auto flex flex-col items-center">
           <p className="text-[11px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-10 text-center">
-            Leading academic teams trust IntelliGems
+            Leading academic teams trust ADITYA AI Agents
           </p>
           <div className="flex flex-wrap justify-center gap-12 lg:gap-20 opacity-30 grayscale items-center">
             <span className="font-black text-2xl">ADITYA</span>

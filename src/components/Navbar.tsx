@@ -5,10 +5,10 @@ import { Sparkles } from "lucide-react";
 const navItems = [
   "Dashboard",
   "University Regulations",
-  "Lesson Plan Gem",
-  "Academics Gem",
-  "Placements Gem",
-  "Reports Gem",
+  "Lesson Plan Agent",
+  "Academics Agent",
+  "Placements Agent",
+  "Reports Agent",
   "Project Plagiarism",
   "Documents Generation",
   "Semester Outcome Forecast",
@@ -24,7 +24,7 @@ export default function Navbar() {
             ADITYA
           </div>
           <span className="text-xl font-bold font-heading tracking-tight text-slate-900 hidden sm:inline">
-            IntelliGems
+            AI Agents
           </span>
         </div>
 
