@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { BookOpen, GraduationCap, Layout, FileText, ClipboardList, Search, MessageSquare, LineChart, Database } from "lucide-react";
+import { BookOpen, GraduationCap, Layout, FileText, ClipboardList, Search, MessageSquare, LineChart, Database, Calendar } from "lucide-react";
 import Navbar from "./components/Navbar";
 import GemCard from "./components/GemCard";
 import { motion } from "motion/react";
@@ -13,36 +13,43 @@ const gems = [
     icon: BookOpen,
     title: "University Regulations",
     description: "Get instant answers about university rules, exam policies, and academic regulations.",
+    link: "#",
   },
   {
     icon: Layout,
     title: "Lesson Plan Agent",
     description: "Generate structured weekly lesson plans based on your subject, syllabus, and timeframe.",
+    link: "#",
   },
   {
     icon: GraduationCap,
     title: "Academics Agent",
     description: "Generate comprehensive notes, question banks, and tailored exam preparation strategies.",
+    link: "#",
   },
   {
     icon: ClipboardList,
     title: "Placements Agent",
     description: "Build your resume, practice interview questions, and prepare for aptitude tests.",
+    link: "#",
   },
   {
     icon: LineChart,
     title: "Reports Agent",
     description: "Analyze student performance, attendance data, and generate downloadable summaries.",
+    link: "#",
   },
   {
     icon: Search,
     title: "Project Plagiarism",
     description: "Analyze project documents for similarity and ensure original content for submissions.",
+    link: "#",
   },
   {
-    icon: Search,
+    icon: Calendar,
     title: "Academic Calendar",
-    description: "Analyze project documents for similarity and ensure original content for submissions.",
+    description: "View the official university schedule, exam dates, and upcoming academic events.",
+    link: "https://notebooklm.google.com/notebook/e3ada727-5c1c-4069-a098-ed5a89c7fa93/preview",
   },
 ];
 
@@ -107,6 +114,7 @@ export default function App() {
               title={gem.title}
               description={gem.description}
               index={index} 
+              link={gem.link}
             />
           ))}
         </div>
