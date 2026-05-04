@@ -13,7 +13,7 @@ const gems = [
     icon: BookOpen,
     title: "University Regulations",
     description: "Get instant answers about university rules, exam policies, and academic regulations.",
-    link: "#",
+    link: "https://notebooklm.google.com/notebook/572b9ef6-3e6a-4adc-ac5b-ecf3480608ff?authuser=1",
   },
   {
     icon: Layout,
